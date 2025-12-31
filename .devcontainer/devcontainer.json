@@ -1,0 +1,33 @@
+{
+    "name": "Intro to Data Science & AI",
+    "image": "mcr.microsoft.com/devcontainers/python:3.11",
+    "features": {
+        "ghcr.io/devcontainers/features/python:1": {
+            "version": "3.11"
+        }
+    },
+    "customizations": {
+        "vscode": {
+            "extensions": [
+                "ms-python.python",
+                "ms-toolsai.jupyter",
+                "ms-python.vscode-pylance"
+            ],
+            "settings": {
+                "python.defaultInterpreterPath": "/usr/local/bin/python",
+                "jupyter.askForKernelRestart": false,
+                "notebook.cellToolbarLocation": {
+                    "default": "right"
+                }
+            }
+        }
+    },
+    "postCreateCommand": "pip install -r requirements.txt",
+    "forwardPorts": [8888],
+    "portsAttributes": {
+        "8888": {
+            "label": "Jupyter",
+            "onAutoForward": "notify"
+        }
+    }
+}

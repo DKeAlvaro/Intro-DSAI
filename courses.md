@@ -1,0 +1,7 @@
+### Data Science & AI Curriculum Overview
+
+| Year | Period 1 | Period 2 | Period 3 (Project) | Period 4 | Period 5 | Period 6 |
+| :--- | :--- | :--- | :--- | :--- | :--- | :--- |
+| **Year 1** | • Procedural Programming<br>• Discrete Mathematics<br>• Intro to DS & AI | • Objects in Programming<br>• Calculus<br>• Logic | **Project** | • Data Structures & Algorithms<br>• Linear Algebra<br>• Principles of Data Science | • Computational & Cognitive Neuroscience<br>• Numerical Methods<br>• Software Engineering | **Project** |
+| **Year 2** | • Databases<br>• Probability & Statistics<br>• Graph Theory | • Machine Learning<br>• Simulation & Statistical Analysis<br>• Reasoning Techniques | **Project** | • HCI & Affective Computing<br>• Mathematical Modelling<br>• Elective (Theoretical CS / Image & Video) | • Philosophy & AI<br>• Linear Programming<br>• Natural Language Processing | **Project** |
+| **Year 3** | **Electives:**<br>• Semantic Web<br>• Game Theory<br>• Computer Security<br>• Robotics<br>• Digital Society<br>• Recommender Systems | **Electives:**<br>• Cloud Computing<br>• Computer Security<br>• Logic for AI<br>• Parallel Programming<br>• Bio-Informatics<br>• Verification<br>• Quantum Computing | **Project** | • Data Analysis<br>• Operations Research Case Studies<br>• Intelligent Systems | **Bachelor's Thesis** | **Bachelor's Thesis** |
