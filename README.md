@@ -1,10 +1,6 @@
 # Will I Like This Movie?
 ## A Hands-On Introduction to Data Science & AI
 
----
-
-## The Problem
-
 You want to know if a movie is worth watching before investing 2 hours of your time. **Can we predict if a movie will be good based on its characteristics?**
 
 By the end of this workshop, you'll be able to:
