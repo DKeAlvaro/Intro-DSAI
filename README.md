@@ -34,7 +34,9 @@ Open `notebooks/workshop.ipynb` and follow along!
 ---
 
 ### Checkpoint 2: Load the Data
-- [ ] Load the movie dataset using pandas
+- [ ] Download the movie dataset from Kaggle using `kagglehub`
+- [ ] Load the dataset using pandas
+- [ ] Preprocess the data (extract year and genre)
 - [ ] Display the first 5 rows
 - [ ] Check how many movies are in the dataset
 - [ ] Explore the column names
@@ -94,8 +96,6 @@ Open `notebooks/workshop.ipynb` and follow along!
 intro-dsai-movie-predictor/
 ├── README.md              
 ├── .devcontainer/         
-├── data/
-│   └── movies.csv         
 ├── notebooks/
 │   └── workshop.ipynb     
 ├── solutions/
@@ -122,13 +122,32 @@ This workshop introduces skills you'll develop throughout your Data Science & AI
 
 ## Dataset Information
 
-We're using a curated subset of the **TMDB 5000 Movie Dataset**, which includes:
+We're using the **TMDB 5000 Movie Dataset** from Kaggle, which includes:
 
-- Movie titles and release dates
-- Budget and revenue information
-- Genres and keywords
-- Popularity and vote average (our target!)
-- Runtime and other metadata
+- **4,803 movies** from The Movie Database (TMDB)
+- Movie titles, release dates, and taglines
+- Budget and revenue information (in USD)
+- Genres and keywords (as JSON arrays)
+- Popularity scores and vote averages (our prediction target!)
+- Runtime, production companies, and other metadata
+- Plot overviews and spoken languages
+
+The dataset is downloaded automatically using `kagglehub` when you run the notebook.
+
+### Key Columns
+
+| Column | Description |
+|--------|-------------|
+| `title` | Movie title |
+| `release_date` | Release date (we extract year from this) |
+| `budget` | Production budget in USD |
+| `revenue` | Box office revenue in USD |
+| `runtime` | Movie length in minutes |
+| `vote_average` | Average user rating (0-10) |
+| `vote_count` | Number of votes |
+| `popularity` | TMDB popularity score |
+| `genres` | List of genres (JSON format) |
+| `overview` | Plot summary |
 
 ---
 
