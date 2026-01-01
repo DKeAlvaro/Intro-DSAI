@@ -1,0 +1,6 @@
+Git and GitHub - Version control and collaboration
+Cloning a repository
+Developing locally vs. on the cloud (e.g., GitHub Codespaces, Google Colab vs IDEs like VSCode)
+Data acquisition (finding, downloading, and loading datasets)
+Jupyter Notebooks
+Data formats (CSV, JSON, Excel...)
